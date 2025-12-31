@@ -1,21 +1,21 @@
-# 🚀 Sajal Soni | Marketing Portfolio
+# 🚀 Professional Marketing Portfolio | Neubrutalism Edition
 
-Ek professional aur modern **Neubrutalism** styled portfolio website jo meri marketing expertise aur technical skills ko showcase karti hai. Ise React.js aur Tailwind CSS ka istemal karke banaya gaya hai.
+A professional and modern portfolio website built with a **Neubrutalism** aesthetic, designed to showcase marketing expertise and internship achievements. This project was custom-developed for **Sajal Soni (Marketing Executive)** to provide a bold, interactive, and high-conversion digital presence.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- **Neubrutalism UI**: Bold typography, thick black borders, aur vibrant colors ka istemal.
-- **Fully Responsive**: Mobile, Tablet aur Desktop ke liye optimized (Mobile-first approach).
-- **Lottie Animations**: Hero aur Contact sections mein interactive animations.
-- **Responsive Layouts**: 
-  - Mobile par content stacking (Animation on top).
-  - Optimized grid systems for Skills aur Experience.
-- **Functional Components**: 
-  - Working `mailto:` links.
-  - Resume download functionality.
-  - Smooth scroll navigation.
+- **Neubrutalism UI Design**: Features bold typography, thick 4px black borders, and a high-contrast color palette (Yellow/White/Black) for a distinct, modern look.
+- **Mobile-First Responsiveness**: Fully optimized for Mobile, Tablet, and Desktop devices using a mobile-first CSS strategy.
+- **Lottie SVG Animations**: Integrated interactive and lightweight animations in the Hero and Contact sections to enhance user engagement.
+- **Dynamic Layout Management**: 
+  - **Mobile Stacking**: Implemented a `flex-col-reverse` strategy for mobile screens to ensure animations appear above the text for better visual hierarchy.
+  - **Optimized Grids**: Responsive grid systems for the Skills and Experience sections to ensure perfect readability on small screens.
+- **Interactive Technical Components**: 
+  - **Smooth Navigation**: Seamless scroll-to-section functionality.
+  - **Direct CTAs**: Fully functional `mailto:` links, LinkedIn redirects, and a dedicated Resume Download trigger.
+  - **Neubrutalism Cards**: Hover-reactive cards with hard-shadow offsets for a tactile UI feel.
 
 ---
 
@@ -32,15 +32,15 @@ Ek professional aur modern **Neubrutalism** styled portfolio website jo meri mar
 
 ```text
 src/
-├── assets/             # Images, JSON animations, aur Resume PDF
-├── components/         # Reusable UI components
-│   ├── Navbar.jsx      # Responsive Navigation bar
-│   ├── HeroSection.jsx # Intro with Lottie animation
-│   ├── AboutSection.jsx# Professional background
-│   ├── Experience.jsx  # Internship timeline cards
-│   ├── SkillsSection.jsx# Marketing skills grid
-│   └── ContactSection.jsx# Interactive contact window
-└── App.jsx             # Main layout logic
+├── assets/             
+├── components/        
+│   ├── Navbar.jsx      
+│   ├── HeroSection.jsx 
+│   ├── AboutSection.jsx
+│   ├── Experience.jsx  
+│   ├── SkillsSection.jsx
+│   └── ContactSection.jsx
+└── App.jsx           
 ```
 ## 🔗 Live Link -> **[sajal-portfolio](https://sajal-portfolio-indol.vercel.app/)**
 
