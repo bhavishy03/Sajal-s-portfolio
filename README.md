@@ -1,16 +1,53 @@
-# React + Vite
+# 🚀 Sajal Soni | Marketing Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ek professional aur modern **Neubrutalism** styled portfolio website jo meri marketing expertise aur technical skills ko showcase karti hai. Ise React.js aur Tailwind CSS ka istemal karke banaya gaya hai.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **Neubrutalism UI**: Bold typography, thick black borders, aur vibrant colors ka istemal.
+- **Fully Responsive**: Mobile, Tablet aur Desktop ke liye optimized (Mobile-first approach).
+- **Lottie Animations**: Hero aur Contact sections mein interactive animations.
+- **Responsive Layouts**: 
+  - Mobile par content stacking (Animation on top).
+  - Optimized grid systems for Skills aur Experience.
+- **Functional Components**: 
+  - Working `mailto:` links.
+  - Resume download functionality.
+  - Smooth scroll navigation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: [React.js](https://react.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: [Lottie React](https://github.com/LottieFiles/lottie-react) & [Framer Motion](https://www.framer.com/motion/)
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/             # Images, JSON animations, aur Resume PDF
+├── components/         # Reusable UI components
+│   ├── Navbar.jsx      # Responsive Navigation bar
+│   ├── HeroSection.jsx # Intro with Lottie animation
+│   ├── AboutSection.jsx# Professional background
+│   ├── Experience.jsx  # Internship timeline cards
+│   ├── SkillsSection.jsx# Marketing skills grid
+│   └── ContactSection.jsx# Interactive contact window
+└── App.jsx             # Main layout logic
+```
+## 🔗 Live Link -> **[sajal-portfolio](https://sajal-portfolio-indol.vercel.app/)**
+
+## 📸 Screenshots
+<p align="center">
+  <img src="./src/assets/hero-desktop.png" width="400" alt="Desktop View" />
+  <img src="./src/assets/hero-mobile.png.png" width="200" alt="Mobile View" />
+</p>
+
+## 👾 Created By Bhavishy🔥
